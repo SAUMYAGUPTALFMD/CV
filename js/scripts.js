@@ -29,6 +29,7 @@
             }
         }
     });
+var beepOne = $("#beep-one");
 $("#nav-one")
 	.mouseenter(function() {
 		beepOne.play();
