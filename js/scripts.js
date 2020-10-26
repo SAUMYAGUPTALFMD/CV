@@ -29,7 +29,7 @@
             }
         }
     });
-$("#nav-one a")
+$("#nav-one")
 	.mouseenter(function() {
 		beepOne.play();
 });
