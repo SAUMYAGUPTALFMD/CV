@@ -29,6 +29,10 @@
             }
         }
     });
+$("#nav-one a")
+	.mouseenter(function() {
+		beepOne.play();
+});
 
     // Closes responsive menu when a scroll trigger link is clicked
     $(".js-scroll-trigger").click(function () {
